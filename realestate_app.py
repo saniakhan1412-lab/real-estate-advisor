@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv('/Users/saniakhan/Downloads/housing_cleaned.csv.gz')
+df = pd.read_csv(/Users/saniakhan/Downloads/'housing_cleaned.csv.gz')
 
 st.set_page_config(page_title="Real Estate Investment Advisor", layout="wide")
 st.title('🏠 Real Estate Investment Advisor')
